@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="113.13929"
+   height="11.76933"
+   viewBox="0 0 113.13929 11.76933"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="divider.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="9.3"
+     inkscape:cx="61.236559"
+     inkscape:cy="-2.3655914"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-893.10871,-534.11546)">
+    <path
+       style="opacity:1;fill:#fac564;fill-opacity:1;stroke:none;stroke-width:5.13905;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 975.92694,539.71555 v 0.56915 h 30.32106 v -0.56915 z"
+       id="path5" />
+    <path
+       style="fill:#fac564;fill-opacity:1;stroke:none;stroke-width:5.13905;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 893.10871,539.71555 v 0.56915 h 30.32106 v -0.56915 z"
+       id="path5-2" />
+    <path
+       style="opacity:1;fill:#fac564;fill-opacity:1;stroke-width:2.72239;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 965.35075,536.07701 -3.39749,1.96156 v 3.92311 l 3.39749,1.96156 3.39752,-1.96156 v -3.92311 z"
+       id="path3" />
+    <path
+       style="opacity:1;fill:#fac564;fill-opacity:1;stroke-width:2.72239;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 934.00595,536.07701 -3.39751,1.96156 v 3.92311 l 3.39751,1.96156 3.39749,-1.96156 v -3.92311 z"
+       id="path2" />
+    <path
+       style="opacity:1;fill:#fac564;fill-opacity:1;stroke-width:2.72239;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 949.67835,534.11546 -5.09624,2.94209 v 5.88467 l 5.09624,2.94257 5.09623,-2.94257 v -5.88467 z"
+       id="path1" />
+  </g>
+</svg>
