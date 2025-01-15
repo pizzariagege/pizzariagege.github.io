@@ -16,6 +16,10 @@ body {
     overflow-x: hidden;
 }
 
+h1, h2, h3 {
+    font-family: "Josefin Sans", Arial, sans-serif;
+}
+
 .form-select {
   border: 1px solid #fac564 !important; /* Cor da borda */
   border-radius: 0px !important; /* Bordas arredondadas */
