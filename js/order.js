@@ -15,14 +15,14 @@
 
         const formData = new FormData(form);
         const pedido = Object.fromEntries(formData.entries());
-        const adicionais = formData.getAll('adicionais').join(', ');
+        const refrigerante = formData.getAll('refrigerante').join(', ');
 
         const mensagem = `*Pedido de Pizza*%0A%0A` +
           `*Tamanho:* ${pedido.tamanho}%0A` +
           `*Sabor 1:* ${pedido.sabor1}%0A` +
           (pedido.sabor2 ? `*Sabor 2:* ${pedido.sabor2}%0A` : '') +
           `*Borda:* ${pedido.borda}%0A` +
-          (adicionais ? `*Adicionais:* ${adicionais}%0A` : '') +
+          (refrigerante ? `*Refri:* ${refrigerante}%0A` : '') +
           `*Entrega ou Retirada:* ${pedido.entrega}%0A` +
           `*Nome:* ${pedido.nome}%0A` +
           `*Telefone:* ${pedido.telefone}%0A` +
