@@ -36,7 +36,7 @@
         window.open(urlWhatsApp, '_blank');
 
         setTimeout(() => {
-          window.location.href = 'pagina-de-confirmacao.html';
+          window.location.href = 'obrigado.html';
         }, 500);
       }
 
