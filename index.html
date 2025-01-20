@@ -305,7 +305,7 @@
           <p class="mt-5">Transformamos sua fome em sabor com rapidez e qualidade!</p>
         </div>
 
-        <form id="pedido-form" class="needs-validation" novalidate>
+        <form id="pedido-form" data-w-number="9984135298" class="needs-validation" novalidate>
           <div class="row text-white">
             <div class="col-md-6 border-end" data-aos="fade-right">
               <!-- Tamanho da Pizza -->
@@ -313,9 +313,9 @@
                 <label for="tamanho" class="form-label">Tamanho da Pizza</label>
                 <select class="form-select" id="tamanho" name="tamanho" required>
                   <option selected disabled value="">Selecione o tamanho</option>
-                  <option value="media">Média</option>
+                  <option value="média">Média</option>
                   <option value="grande">Grande</option>
-                  <option value="familia">Família</option>
+                  <option value="família">Família</option>
                 </select>
                 <div class="invalid-feedback">
                   Por favor selecione o tamanho da pizza.
@@ -326,7 +326,7 @@
               <div class="mb-4">
                 <label for="sabor1" class="form-label">Sabor 1</label>
                 <select class="form-select" id="sabor1" name="sabor1" required>
-                  <option value="">Escolha o sabor</option>
+                  <option selected disabled  value="">Escolha o sabor</option>
                   <option value="portuguesa">Portuguesa</option>
                   <option value="pizza-mais">Pizza+</option>
                   <option value="americana">Americana</option>
@@ -345,7 +345,7 @@
               <div class="mb-4" id="sabor2-container" style="display: none;">
                 <label for="sabor2" class="form-label">Sabor 2</label>
                 <select class="form-select" id="sabor2" name="sabor2" required>
-                  <option value="">Escolha o sabor</option>
+                  <option selected disabled value="">Escolha o sabor</option>
                   <option value="portuguesa">Portuguesa</option>
                   <option value="pizza-mais">Pizza+</option>
                   <option value="americana">Americana</option>
@@ -365,12 +365,13 @@
               <div class="mb-4">
                 <label for="borda" class="form-label">Borda (Gratis)</label>
                 <select class="form-select" id="borda" name="borda" required>
-                  <option value="sem-borda">Sem borda</option>
-                  <option value="recheada-cheddar">Recheada com Cheddar</option>
+                  <option selected disabled value="">Escolha a borda</option>
+                  <option value="sem-borda">Tradicional (sem recheio)</option>
                   <option value="recheada-catupiry">Recheada com Catupiry</option>
+                  <option value="recheada-cheddar">Recheada com Cheddar</option>
                 </select>
                 <div class="invalid-feedback">
-                  Please select a valid state.
+                  Por favor selecione a borda.
                 </div>
               </div>
 
@@ -440,11 +441,22 @@
               </div>
 
               <!-- Endereço -->
-              <div class="mb-3" id="endereco-container" style="display: none;">
-                <label for="endereco" class="form-label">Endereço</label>
-                <input type="text" class="form-control" id="endereco" name="endereco" required>
-                <div class="invalid-feedback">
-                  Por favor digite seu endereço.
+              <div id="endereco-container" class="border-top border-bottom border-primary" style="display: none;">
+                <div class="mb-3">
+                  <label for="endereco" class="form-label">Endereço</label>
+                  <input type="text" class="form-control" id="endereco" name="endereco" required>
+                  <div class="invalid-feedback">
+                    Por favor digite seu endereço.
+                  </div>
+                </div>
+
+                <!-- Referência -->
+                <div class="mb-3">
+                  <label for="referencia" class="form-label">Ponto de Referência</label>
+                  <input type="text" class="form-control" id="referencia" name="referencia">
+                  <div class="invalid-feedback">
+                    Por favor digite um ponto de referência para o endereço.
+                  </div>
                 </div>
               </div>
 
@@ -454,7 +466,8 @@
                 <select class="form-select" id="pagamento" name="pagamento" required>
                   <option value="">Escolha o método</option>
                   <option value="dinheiro">Dinheiro</option>
-                  <option value="cartao">Cartão</option>
+                  <option value="débito">Cartão Débito</option>
+                  <option value="crédito">Cartão Crédito</option>
                   <option value="pix">Pix</option>
                 </select>
                 <div class="invalid-feedback">
@@ -544,6 +557,27 @@
         </div>
       </div>
     </footer>
+
+    <!-- Modal de Confirmação -->
+    <div class="modal fade" id="pedidoModal" tabindex="-1" aria-labelledby="pedidoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content text-black">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="pedidoModalLabel">Confirmação do Pedido</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="pedidoModalBody">
+                    <!-- Dados do pedido serão inseridos aqui -->
+                </div>
+                <div class="modal-footer">
+                  <a href="#order">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continuar Comprando</button>
+                  </a>
+                  <button type="button" class="btn btn-primary" id="finalizarPedido">Finalizar Pedido</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Bootstrap -->
