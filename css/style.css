@@ -50,6 +50,41 @@ header {
     background-size: cover;
 }
 
+
+/*================ Header Slogan ================*/
+
+.text-container {
+    text-align: center;
+    line-height: 0.6;
+    font-size: clamp(0.2rem, 3vw, 1.3rem);
+}
+.sua {
+    margin-right: 24rem;
+    font-size: 6em;
+    font-family: 'caveat', sans-serif;
+    rotate: -20deg;
+    position: relative;
+    z-index: 1;
+}
+.em {
+    font-size: 0.6em;
+    vertical-align: middle; /* Align smaller text vertically */
+}
+.nova-paixao {
+    font-size: 4em;
+    font-style: italic;
+}
+.formato {
+    margin-right: 10%;
+    font-size: 4em;
+    font-style: italic;
+}
+.pizza {
+    margin-left: 10%;
+    font-size: 5em;
+    font-style: italic;
+}
+
 /*========== Menu ==========*/
 
 .pricing-entry {
