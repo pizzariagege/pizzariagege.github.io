@@ -572,10 +572,14 @@
                     <!-- Dados do pedido serão inseridos aqui -->
                 </div>
                 <div class="modal-footer">
+                  <div class="alert alert-info text-center" role="alert">
+                    <span class="fw-bold" id="clientName"></span>, deseja adicionar mais itens ao seu pedido?
+                    <br>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Adicionar <i class="fas fa-plus"></i></button>
+                  </div>
                   <a href="#order">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continuar Comprando</button>
                   </a>
-                  <button type="button" class="btn btn-primary" id="finalizarPedido">Finalizar Pedido</button>
+                  <button type="button" class="btn btn-primary" id="finalizarPedido">Finalizar Pedido <i class="fas fa-check"></i></button>
                 </div>
             </div>
         </div>

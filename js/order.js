@@ -96,6 +96,7 @@
   // Atualizar modal com os dados do cliente e pedidos
   function atualizarModal() {
     const modalBody = document.getElementById('pedidoModalBody');
+    const clientName = document.getElementById('clientName');
 
     const clienteHTML = `
       <h5>Dados do Cliente</h5>
@@ -119,6 +120,7 @@
       <hr>
     `).join('');
 
+    clientName.innerHTML = dadosCliente.nome.split(' ')[0]
     modalBody.innerHTML = clienteHTML + pedidosHTML;
   }
 
