@@ -43,6 +43,13 @@ footer {
     backdrop-filter: blur(10px); /* Adiciona desfoque ao fundo */
 }
 
+/*================ Header ================*/
+
+header {
+    background-image: url("../images/bgHeader.jpg");
+    background-size: cover;
+}
+
 /*========== Menu ==========*/
 
 .pricing-entry {
